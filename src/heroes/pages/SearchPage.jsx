@@ -29,12 +29,12 @@ export const SearchPage = () => {
   return (
     <>
     <div className="d-grid gap-3">
-      <h1 className=" mt-4">Búsqueda</h1>
-      <hr />
+        <h1 className=" mt-4">Búsqueda</h1>
+        <hr />
       <div className="row alignsearching">
         <div className="col-5 search">
-          <h4 className=" mb-2">Buscando</h4>
-          <hr />
+            <h4 className=" mb-2">Buscando</h4>
+            <hr />
           <form className="mt-2"
             onSubmit={onSearchSubmit} value={searchText}
           >
